@@ -1,0 +1,79 @@
+extends: default
+font:
+  catalog:
+    merge: true 
+    Montserrat:
+      normal: montserrat-regular.ttf
+      italic: montserrat-italic.ttf
+      bold: montserrat-bold.ttf
+      bold_italic: montserrat-bold.ttf
+    Jetbrains:
+      normal: jt-mono.ttf
+      bold: jt-mono-bold.ttf
+      italic: jt-mono-italic.ttf
+  fallbacks:
+    - Noto Serif
+base:
+  font-family: Montserrat
+  border-radius: 0
+verse:
+  cite:
+    font-size: 9
+    font-color: #2c3e50
+  font-size: 9
+
+blockquote:
+  cite:
+    font-size: 9
+    font-color: #2c3e50
+  font-size: 9
+title-page:
+  title:
+    top: 35%
+    font-color: #34495E
+    font-style: bold
+  subtitle:
+    font-style: normal
+    font-color: #34495e
+    margin-bottom: 5
+
+  authors:
+    font-style: bold
+heading:
+  chapter:
+    break-before: auto
+  font-weight: 400
+  line-height: 1.2
+  margin-bottom: 10
+  h2:
+    border-color: #FF0000
+    border-style: dashed
+    border-width: [5, 5, 5, 5]
+    font-color: #34495E
+    font-size: 18
+  h3:
+    font-color: #365B80
+    font-size: 15
+  h4:
+    font-color: #376DA2
+    font-size: 13
+  h5:
+    font-color: #3876B3
+    font-size: 11
+  h6:
+    font-color: #397FC4
+    font-size: 9
+codespan:
+  font_color: #B12146
+  font_family: Jetbrains
+
+kbd:
+  font_family: $codespan_font_family
+
+code:
+  border-radius: 0 
+  background-color: transparent
+  font_family: Courier
+  font-size: 9
+conum:
+  font_color: #254868
