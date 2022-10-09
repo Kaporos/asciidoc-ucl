@@ -16,9 +16,6 @@ font:
 base:
   font-family: Montserrat
   border-radius: 0
-  main-color: #57C84D
-  second-color: #83D475
-
 verse:
   cite:
     font-size: 9
@@ -34,16 +31,16 @@ title-page:
   align: center
   title:
     top: 20%
-    font-color: $base-main-color
+    font-color: #34495E
     font-style: bold
   subtitle:
     font-style: normal
-    font-color: $base-main-color
+    font-color: #34495e
     margin-bottom: 5
   authors:
     font-style: bold
-  logo:
-    image: image:images/logo.jpg[pdfwidth=3in]
+  authors:
+    font-style: bold
 heading:
   chapter:
     break-before: auto
@@ -51,23 +48,25 @@ heading:
   line-height: 1.2
   margin-bottom: 10
   h2:
+    border-color: #FF0000
     border-style: dashed
     border-width: [5, 5, 5, 5]
-    font-color: $base-main-color
+    font-color: #34495E
     font-size: 18
   h3:
-    font-color: $base-second-color
+    font-color: #365B80
     font-size: 15
   h4:
-    font-color: #ABE098
+    font-color: #376DA2
     font-size: 13
   h5:
-    font-color: #F07470uu
+    font-color: #3876B3
     font-size: 11
   h6:
-    font-color: #57C84D
+    font-color: #397FC4
     font-size: 9
 codespan:
+  font_color: #B12146
   font_family: Jetbrains
 
 kbd:
