@@ -9,7 +9,7 @@ Théo Daron
 :source-highlighter: rouge
 :doctype: book
 
-= Comment l'utiliser ?
+== Comment l'utiliser ?
 
 Assurez vous d'avoir asciidoctor ainsi qu'asciidoctor-pdf d'installé !
 
