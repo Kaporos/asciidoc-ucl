@@ -6,8 +6,10 @@ Théo Daron
 :toc-title: Table des matières
 :title-page-background-image: image:theme/images/page-title.png[]
 :icons: font
-:source-highlighter: rouge
 :doctype: book
+:math:
+:stem: latexmath
+:imagesoutdir: stem
 
 == Comment l'utiliser ?
 
@@ -18,3 +20,18 @@ Ensuite, il suffit de cloner ce repository, de choisir votre theme (Chaque branc
 Et vous n'avez qu'a editer ce fichier, le README, afin d'y mettre votre contenu
 
 Et d'executer le script sh qui est fourni avec qui fera un build de votre fichier !
+
+== Et pour les maths ?
+
+Voici deux exemples
+
+[latexmath]
+++++
+k_{n+1} = n^2 + k_n^2 - k_{n-1}
+++++
+
+
+[latexmath]
+++++
+x + y^2 = z
+++++
