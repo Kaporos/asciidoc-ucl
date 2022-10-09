@@ -1,0 +1,20 @@
+= UCLouvain Asciidoc Theme 
+Théo Daron
+2022
+:toc:
+:title-page:
+:toc-title: Table des matières
+:title-page-background-image: image:theme/images/page-title.png[]
+:icons: font
+:source-highlighter: rouge
+:doctype: book
+
+= Comment l'utiliser ?
+
+Assurez vous d'avoir asciidoctor ainsi qu'asciidoctor-pdf d'installé !
+
+Ensuite, il suffit de cloner ce repository, de choisir votre theme (Chaque branche = un thème)
+
+Et vous n'avez qu'a editer ce fichier, le README, afin d'y mettre votre contenu
+
+Et d'executer le script sh qui est fourni avec qui fera un build de votre fichier !
