@@ -31,8 +31,9 @@ blockquote:
     font-color: #2c3e50
   font-size: 9
 title-page:
+  align: center
   title:
-    top: 35%
+    top: 20%
     font-color: $base-main-color
     font-style: bold
   subtitle:
@@ -41,6 +42,8 @@ title-page:
     margin-bottom: 5
   authors:
     font-style: bold
+  logo:
+    image: image:images/logo.jpg[pdfwidth=3in]
 heading:
   chapter:
     break-before: auto
