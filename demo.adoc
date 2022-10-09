@@ -4,7 +4,7 @@ Théo Daron
 :toc:
 :title-page:
 :toc-title: Table des matières
-:title-page-background-image: image:images/page-title.png[]
+:title-page-background-image: image:theme/images/page-title.png[]
 :icons: font
 :source-highlighter: rouge
 :doctype: book
